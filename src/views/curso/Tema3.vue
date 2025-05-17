@@ -1,38 +1,158 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
+    BannerInterno(:subTitulo="'3. Objetivos del mercadeo'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
-        .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
+      .row.mb-4.mx-0
+        .col-12.col-xl-8.d-flex.align-items-center.bg-morado-claro.p-4(data-aos="fade-up")
+          p.mb-0 El mercadeo, también conocido como <i>marketing</i>, tiene como finalidad principal <b>crear valor para el cliente y generar relaciones rentables para la organización</b>. En este sentido, sus objetivos abarcan diversas áreas estratégicas que permiten a las empresas comprender, atraer, retener y fidelizar a sus clientes. Estos objetivos se enfocan en aumentar las ventas, y en posicionar adecuadamente la marca, satisfacer las necesidades del consumidor y lograr una ventaja competitiva sostenible en el tiempo.
+        .d-none.d-xl-block.col-4.px-0
+          img.h-100(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
+      
+      p.mb-4 A continuación, se detallan los principales objetivos del mercadeo:
 
-      .bg-full-width.border-top.color-primario
-        .p-4.p-md-5
-          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
-          .row.material-complementario
-            .col-12.col-md-6.col-lg-7
-              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Identificar y comprender las necesidades del mercado")
+              p El mercadeo parte del análisis profundo del entorno y del comportamiento del consumidor. Este objetivo implica investigar el mercado para:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Detectar oportunidades de negocio.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Comprender los deseos, necesidades y preferencias, del público objetivo.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Segmentar adecuadamente el mercado.
+              span El conocimiento del cliente es la base sobre la cual se diseñan productos o servicios relevantes.
+            .div(titulo="Desarrollar productos y servicios que satisfagan al cliente")
+              p Una vez identificadas las necesidades del consumidor, el mercadeo busca guiar el desarrollo de bienes o servicios que:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Sean útiles, funcionales y diferenciados.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Cumplan con estándares de calidad.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Generen una experiencia de consumo positiva.
+              span Este objetivo está alineado con la propuesta de valor de la empresa.
+            .div(titulo="Diseñar estrategias de posicionamiento y diferenciación")
+              p El mercadeo trabaja en cómo se desea que los consumidores perciban la marca, producto o servicio. Este objetivo busca:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Crear una identidad clara y consistente.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Resaltar características que diferencien a la oferta frente a la competencia.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Establecer un lugar en la mente del consumidor.
+              span Un posicionamiento efectivo, es clave para la toma de decisiones de compra.
+            .div(titulo="Atraer y captar clientes")
+              p A través de acciones promocionales, campañas publicitarias y técnicas de comunicación, el mercadeo busca atraer a nuevos clientes. Esto se logra mediante:
+              p.text-bold Publicidad efectiva.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Estrategias de contenido y redes sociales.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Promociones, descuentos y pruebas gratuitas.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Alianzas estratégicas.
+              span La captación debe ser coherente con los valores de la marca y el perfil del cliente.
+
+      .row.mb-5
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Fidelizar a los clientes existentes")
+              p Una vez que el cliente ha sido conquistado, el mercadeo busca mantener la relación a largo plazo mediante:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Programas de fidelización.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Servicio postventa de calidad.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Comunicación constante y personalizada.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Escucha activa de opiniones y sugerencias.
+              span Este objetivo se basa en que <b>retener clientes es más rentable que captar nuevos</b>.
+            .div(titulo="Incrementar la participación de mercado y las ventas")
+              p El mercadeo se orienta a aumentar la cuota de mercado y maximizar los ingresos a través de:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Ampliación de canales de distribución.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Penetración en nuevos mercados o segmentos.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Venta cruzada (<i>cross-selling</i>) o venta incremental (<i>up-selling</i>).
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Estrategias de precios adaptadas a la demanda.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Se busca un crecimiento sostenido con base en decisiones estratégicas.
+            .div(titulo="Consolidar la imagen y reputación de la marca")
+              p Otro objetivo clave es gestionar la percepción del público sobre la marca o empresa, garantizando:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Coherencia en los mensajes.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Responsabilidad social y ambiental.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Manejo adecuado de crisis.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Fortalecimiento de la confianza del consumidor.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Una buena reputación genera valor intangible para la empresa.
+            .div(titulo="Medir y optimizar el desempeño de las estrategias de mercadeo")
+              p.text-bold Medir y optimizar el desempeño de las estrategias de mercadeo
+              p El mercadeo moderno es <b>medible y ajustable</b>. Por tanto, uno de sus objetivos es:
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Establecer indicadores claves de desempeño (KPIs).
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Analizar métricas como retorno de la inversión (ROI), tasa de conversión, <i>engagement</i>, entre otros.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Corregir y adaptar las acciones, según los resultados.
+              .div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Esto permite una gestión eficiente basada en datos.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/articulo.oa?id=10900302") Zapata Guerrero, E. E. (2001). La efectividad del mercadeo en las pequeñas y medianas empresas (Pymes) de los sectores industrial y de servicios del departamento de Boyacá, Colombia. Revista Colombiana de Marketing.
+              
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
-  
-            .col-12.col-md-6.col-lg-3.offset-lg-1
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://youtu.be/lvXbjeykTmU?si=l4X_suK2VzHliBHo") [Vídeo] SEO y Estadistica (2016) - Los 4 objetivos del Marketing digital
+            .col-12.col-md-6.col-lg-3
               figure
-                img(src='@/assets/componentes/material-complementario.svg', alt='')
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
+      p
   
 </template>
 
@@ -42,177 +162,6 @@ export default {
   name: 'Tema3',
   components: {
     Actividad,
-  },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
   },
   mounted() {
     this.$nextTick(() => {
