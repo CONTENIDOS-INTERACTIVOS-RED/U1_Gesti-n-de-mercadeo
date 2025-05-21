@@ -122,7 +122,7 @@
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Orientación a la nueva era 
             p.mb-5(data-aos="fade-up") En el PDF Orientación a la nueva era, se examina cómo el mercadeo actual integra principios de sostenibilidad, responsabilidad social y uso intensivo de tecnologías digitales, transformándose en una herramienta estratégica que busca no solo generar valor económico, sino también promover relaciones significativas con los consumidores y contribuir positivamente al entorno.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Orientacion_a_la_nueva_era.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Orientación a la nueva era 
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

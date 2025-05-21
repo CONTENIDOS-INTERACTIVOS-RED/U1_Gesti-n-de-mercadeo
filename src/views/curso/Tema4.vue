@@ -32,7 +32,7 @@
         .col-4.d-none.d-xl-block(data-aos="zoom-in")
           img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8.p-4.p-xl-0.d-flex
-          p.my-auto En este contexto, el <i>marketing</i> se consolida como el eje que articula la oferta y la demanda de bienes, servicios, información y capital, ya no solo se limita a espacios nacionales, también se proyecta internacionalmente, lo cual genera una competencia más intensa pero también mayores oportunidades para crecer, diversificarse e innovar.
+          p.my-auto.px-4.px-xl-0 En este contexto, el <i>marketing</i> se consolida como el eje que articula la oferta y la demanda de bienes, servicios, información y capital, ya no solo se limita a espacios nacionales, también se proyecta internacionalmente, lo cual genera una competencia más intensa pero también mayores oportunidades para crecer, diversificarse e innovar.
       .row.bg-naranja.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
           span Por ello, entender cómo evoluciona el <i>marketing</i> y adaptarse a sus cambios constantes, se ha vuelto indispensable para aquellas organizaciones que aspiran a consolidarse y sobresalir en un entorno internacional en permanente transformación.

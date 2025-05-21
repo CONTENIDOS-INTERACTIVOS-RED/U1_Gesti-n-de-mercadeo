@@ -9,7 +9,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Definición y conceptos fundamentales del mercadeo
           p.mb-5(data-aos="fade-up") En el PDF Definición y conceptos fundamentales del mercadeo, se exploran las nociones clave que sustentan esta disciplina, incluyendo su significado, origen, evolución conceptual y relación con el sistema económico. A través de este análisis, se sientan las bases para interpretar el papel del mercadeo en el desarrollo social, económico y organizacional, reconociendo su impacto en la toma de decisiones y en la creación de valor dentro de una economía dinámica y competitiva.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Definicion_y_conceptos_mercadeo.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Definición y conceptos fundamentales del mercadeo 
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
