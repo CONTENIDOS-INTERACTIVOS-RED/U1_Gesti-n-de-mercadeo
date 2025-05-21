@@ -157,177 +157,170 @@ export default {
   components: {
     Actividad,
   },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
+  data: () => ({
+    cuestionario: {
+      tema: 'Conceptos de Mercadeo',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál es el propósito principal del mercadeo dentro de una organización?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Realizar auditorías internas para controlar procesos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Optimizar procesos de producción en serie',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crear, comunicar y entregar valor al cliente',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Implementar normas financieras internacionales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál de los siguientes enunciados describe mejor la evolución del mercadeo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Se enfoca solo en aumentar la producción industrial',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pasa de vender productos a generar experiencias de valor',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Se orienta solo a las relaciones públicas empresariales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limita su acción a las actividades de ventas directas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué elemento se considera esencial dentro de la definición de mercadeo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La competencia entre empresas en el mercado',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El análisis financiero de costos y precios',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La satisfacción de necesidades a través de intercambios',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La capacitación constante del personal administrativo',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál es uno de los objetivos estratégicos del mercadeo en las organizaciones actuales?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Gestionar campañas de publicidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Alcanzar posicionamiento mediante creación de valor',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Controlar la distribución física de los productos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir los costos operativos de la empresa',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cómo se clasifica la evolución del mercadeo en sus primeras etapas históricas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'De la orientación al cliente a la digitalización global',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Desde la orientación a la producción hasta la venta',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'De la internacionalización a la automatización digital',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Desde la estrategia de marca a la logística inversa',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
