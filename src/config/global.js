@@ -152,16 +152,6 @@ export default {
     },
     {
       referencia:
-        'Monferrer Tirado, D. (2013). Fundamentos de marketing: ( ed.). Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/51743?page=4',
-    },
-    {
-      referencia:
-        'Mesa Holguín, M. (2012). Fundamentos de marketing: ( ed.). Ecoe Ediciones.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69209?page=9',
-    },
-    {
-      referencia:
         'Mesa Holguín, M. (2012). Fundamentos de marketing: ( ed.). Ecoe Ediciones.',
       link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69209?page=9',
     },

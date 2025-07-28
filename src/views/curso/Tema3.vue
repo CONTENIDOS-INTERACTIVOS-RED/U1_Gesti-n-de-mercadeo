@@ -119,7 +119,6 @@
                 img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
                 p Una buena reputación genera valor intangible para la empresa.
             .div(titulo="Medir y optimizar el desempeño de las estrategias de mercadeo")
-              p.text-bold Medir y optimizar el desempeño de las estrategias de mercadeo
               p El mercadeo moderno es <b>medible y ajustable</b>. Por tanto, uno de sus objetivos es:
               .div.d-flex
                 img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
